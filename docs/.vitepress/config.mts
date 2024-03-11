@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "习惯点点",
   description: "持续不断打卡，意义自然浮现",
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
     logo: "/logo.png",
     nav: [
