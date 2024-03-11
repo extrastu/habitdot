@@ -13,16 +13,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "习惯点点简介",
+        text: "简介",
         link: "/intro",
       },
-      {
-        text: "服务协议",
-        items: [
-          { text: "隐私协议", link: "/privacy_policy" },
-          { text: "用户协议", link: "/user_policy" },
-        ],
-      },
+
       {
         text: "会员活动",
         items: [{ text: "免费领会员", link: "/gift" }],
@@ -30,6 +24,13 @@ export default defineConfig({
       {
         text: "常见问题",
         items: [{ text: "如何添加小组件", link: "/widget" }],
+      },
+      {
+        text: "服务协议",
+        items: [
+          { text: "隐私协议", link: "/privacy_policy" },
+          { text: "用户协议", link: "/user_policy" },
+        ],
       },
     ],
     footer: {

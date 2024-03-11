@@ -5,6 +5,8 @@ lastUpdated: true
 
 # 参与活动免费领会员
 
+![参与活动免费领会员](/images/gift-banner.jpg)
+
 > 💡 本活动最终解释权归「习惯点点」所有，和 Apple 无关。
 
 习惯点点现已上线 App Store，自内测阶段起，我们收到了很多来自用户的鼓励和支持。

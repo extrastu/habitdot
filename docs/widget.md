@@ -5,11 +5,11 @@ lastUpdated: true
 
 # 如何添加小组件
 
+![添加小组件](/images/widget.jpg)
+
 习惯点点有多种桌面小组件，方便你无需打开 App，即可打卡或者查看统计。
 
 具体添加步骤如下：
-
-![添加小组件](/images/widget.jpg)
 
 ## Step 1
 
