@@ -147,7 +147,9 @@
 .main p.text {
   color: #3b3b3b;
 }
-
+.copyright {
+  color: #c2bdc1 !important;
+}
 .copyright a {
   color: #c2bdc1 !important;
   text-decoration: none !important;
