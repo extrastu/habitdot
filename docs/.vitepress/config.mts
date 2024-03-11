@@ -1,28 +1,39 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "habitdot",
-  description: "habitdot",
+  title: "习惯点点",
+  description: "持续不断打卡，意义自然浮现",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    logo: "/logo.png",
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: "首页", link: "/" },
+      { text: "帮助", link: "/intro" },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: "习惯点点简介",
+        link: "/intro",
+      },
+      {
+        text: "服务协议",
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+          { text: "隐私协议", link: "/privacy_policy" },
+          { text: "用户协议", link: "/user_policy" },
+        ],
+      },
+      {
+        text: "会员活动",
+        items: [{ text: "免费领会员", link: "/gift" }],
+      },
+      {
+        text: "常见问题",
+        items: [{ text: "如何添加小组件", link: "/widget" }],
+      },
     ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
+    footer: {
+      copyright: "©️2024 习惯点点 · <a href='https://beian.miit.gov.cn/'>沪ICP备17043019号-6</a>  ",
+    },
+  },
+});
